@@ -48,16 +48,20 @@ p{
     text-align: center;
 }
 
-.container-redes-sociais a{
+.redes-sociais{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.redes-sociais{
+    font-size: 12px;
     border: 1px solid hsl(0, 0%, 20%);
     border-radius: 10px;
     background-color: hsl(0, 0%, 20%);
     padding: 12px;
     margin-top: 15px;
+}
+
+.redes-sociais:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    transition: 0.2s;
 }
