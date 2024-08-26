@@ -1,0 +1,9 @@
+@media (max-width: 576px){
+    main{
+        padding: 20px;
+    }
+
+    .card .box-social-media .social-media{
+        padding: 12px 85px;
+    }
+}
